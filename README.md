@@ -213,7 +213,7 @@ Test:
 ```
 ping
 ```
-Test:
+Output:
 ```
 PONG
 ```
