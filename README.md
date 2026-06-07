@@ -229,19 +229,20 @@ Redis Insight Desktop Setup
 
 Redis Insight is a graphical tool that helps you view and manage Redis databases without using commands.
 
-Step 1: Install Redis Insight
+**Step 1: Install Redis Insight**
 
 Download Redis Insight from:
 https://redis.io/insight/
 Install the application.
 Open Redis Insight after installation.
 Create a Redis Cloud Database
-Step 1: Create a Redis Cloud Account
+**Step 1: Create a Redis Cloud Account**
 
 Visit:
 https://redis.io/cloud/
 Sign up or log in.
-Step 2: Create a Database
+
+**Step 2: Create a Database**
 Click Create Database.
 Enter a database name.
 
@@ -250,7 +251,8 @@ Example:
 student-redis-db
 Select the free plan.
 Click Create Database.
-Step 3: Get Connection Details
+**Step 3: Get Connection Details**
+-we have select vendor-aws , region-india-mumbai and type-Redis
 
 After the database is created, open it and copy:
 
@@ -260,11 +262,12 @@ Username
 Password
 
 Example:
-
+```
 Host     : xyz-12345.db.redis.io
 Port     : *****
 Username : default
 Password : ********
+```
 
 Keep these details safe because they are required for Spring Boot and Redis Insight.
 
